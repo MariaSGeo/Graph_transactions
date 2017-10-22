@@ -3,7 +3,7 @@
 A Bank Acount System represented by a Graph and a Hashtable
 
 
-##Graph and Hashtable
+## Graph and Hashtable
 
 A directed Graph which grows dynamically when new nodes/accounts are inserted and new transactions are made
 
@@ -24,42 +24,42 @@ Functions of the graph with paths are DFS based
 
 ## Commands
 
-   * createnodes N1 N2 N3 N4 ....
+* createnodes N1 N2 N3 N4 ....
 	
-	>creates the nodes/accounts with ids N1 N2 N3 N4 ....
+>creates the nodes/accounts with ids N1 N2 N3 N4 ....
    * delnodes N1 N2 N3 N4 ....
     
-    > deletes the nodes/accounts with ids N1 N2 N3 N4 ....
+> deletes the nodes/accounts with ids N1 N2 N3 N4 ....
    * addtran N1 N2 amount
    	
-   	> adds a transaction between nodes N1 N2 with the amount given
+> adds a transaction between nodes N1 N2 with the amount given
    * deltran N1 N2
     
-    > deletes a transaction between nodes
+> deletes a transaction between nodes
    * lookup [in | out | sum] N
-   	
-   	> prints the incoming | outgoing | total sum of the node N 
+
+> prints the incoming | outgoing | total sum of the node N 
    * triangle N k
     
-    > checks and prints if there is a triangle of transactions(starts and ends from the same node N) with at least k euros
+> checks and prints if there is a triangle of transactions(starts and ends from the same node N) with at least k euros
    * conn N1 N2
    	
-   	> checks and prints if there is a connection/path between nodes N1 N2
+> checks and prints if there is a connection/path between nodes N1 N2
    * allcycles N
     
-    > checks and prints all the cycles that the node/account N is involved in
+> checks and prints all the cycles that the node/account N is involved in
    * traceflow N l
    	
-   	> prints all the paths with the given depth l that start from the node N
+> prints all the paths with the given depth l that start from the node N
    * bye
    	
-   	> deletes the graph
+> deletes the graph
    * print
    	
-   	> prints the whole graph
+> prints the whole graph
    * exit
    	
-   	> deletes the graph and exits the program
+> deletes the graph and exits the program
 
 ## Comand File
 
